@@ -6,13 +6,16 @@ public static Node deleteNode(Node head, int k)
         
         while(head!=null)
         {
+            
             if(head.data == k)
              head = head.next;
+            
             else 
              break;
             
             if(head == null)
              return head;
+            
         }
         if(head == null)
              return head;
